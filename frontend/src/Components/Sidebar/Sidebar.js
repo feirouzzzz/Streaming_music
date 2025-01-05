@@ -5,7 +5,7 @@ import { listPlaylist } from '../Variables';
 
 function Sidebar() {
   return (
-      <div className='bg-zinc-900 py-4 px-4 text-white w-72 min-h-screen overflow-y-scroll'>
+      <div className='bg-zinc-900 py-6 px-4 text-white w-72 min-h-screen overflow-y-scroll'>
           <h1 className='text-center text-4xl font-bold'> Spotify </h1>
           
           <div className='flex items-center space-x-2 mt-8 opacity-60'>

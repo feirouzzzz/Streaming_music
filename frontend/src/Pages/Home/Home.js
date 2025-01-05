@@ -25,11 +25,9 @@ function Home() {
                         <button className='text-gray-500 font-medium  '>SEE MORE</button>
                     </div>
                     <ul className='grid grid-cols-5 gap-4'>
-                       
                         {listAlbum.map((album, key) => (
                            key <5 && <HomeAlbum image={album.image} titre={album.titre} soustitre={album.soustitre} />
-                        )
-                        )}
+                        ))}
                     </ul>
 
 
